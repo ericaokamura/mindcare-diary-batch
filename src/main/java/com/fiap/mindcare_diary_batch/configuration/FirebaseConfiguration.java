@@ -15,7 +15,7 @@ public class FirebaseConfiguration {
     public void init() {
         try {
             FileInputStream serviceAccount =
-                    new FileInputStream("src/main/resources/mindcare-diary-batch.json");
+                    new FileInputStream("src/main/resources/mindcare-diary-batch-firebase.json");
 
             FirebaseOptions options = FirebaseOptions.builder()
                     .setCredentials(GoogleCredentials.fromStream(serviceAccount))

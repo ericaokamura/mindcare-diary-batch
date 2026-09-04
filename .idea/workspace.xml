@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b36811e7-4ff2-45df-97d2-56dc0d302fb6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/configuration/FirebaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/configuration/FirebaseConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1788544804384</updated>
       <workItem from="1788544805988" duration="9830000" />
-      <workItem from="1788560187756" duration="705000" />
+      <workItem from="1788560187756" duration="1011000" />
     </task>
     <servers />
   </component>
