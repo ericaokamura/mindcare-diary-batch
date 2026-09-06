@@ -1,6 +1,7 @@
-package com.fiap.mindcare_diary_batch.services.consultas;
+package com.fiap.mindcare_diary_batch.services.prescriptions;
 
 import com.fiap.mindcare_diary_batch.models.Consulta;
+import com.fiap.mindcare_diary_batch.models.Prescription;
 import org.springframework.batch.core.job.Job;
 import org.springframework.batch.core.job.builder.JobBuilder;
 import org.springframework.batch.core.repository.JobRepository;
@@ -13,27 +14,27 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.transaction.PlatformTransactionManager;
 
 @Configuration
-public class ConsultaJobConfig {
+public class PrescriptionJobConfig {
 
     @Bean
-    public Job consultaNotificationJob(
+    public Job prescriptionNotificationJob(
             JobRepository jobRepository,
-            Step consultaNotificationStep) {
+            Step prescriptionNotificationStep) {
 
-        return new JobBuilder("consultaNotificationJob", jobRepository)
-                .start(consultaNotificationStep)
+        return new JobBuilder("prescriptionNotificationJob", jobRepository)
+                .start(prescriptionNotificationStep)
                 .build();
     }
 
     @Bean
-    public Step consultaNotificationStep(
+    public Step prescriptionNotificationStep(
             JobRepository jobRepository,
             PlatformTransactionManager transactionManager,
-            ItemReader<Consulta> reader,
-            ItemWriter<Consulta> writer) {
+            ItemReader<Prescription> reader,
+            ItemWriter<Prescription> writer) {
 
-        return new StepBuilder("consultaNotificationStep", jobRepository)
-                .<Consulta, Consulta>chunk(10)
+        return new StepBuilder("prescriptionNotificationStep", jobRepository)
+                .<Prescription, Prescription>chunk(10)
                 .reader(reader)
                 .writer(writer)
                 .transactionManager(transactionManager)

@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b36811e7-4ff2-45df-97d2-56dc0d302fb6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/configuration/FirebaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/configuration/FirebaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/repositories/PrescriptionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/NotificationJobScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/prescriptions/PrescriptionJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/prescriptions/PrescriptionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/prescriptions/PrescriptionWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/repositories/PacienteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/consultas/ConsultaJobConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/consultas/ConsultaJobConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/consultas/ConsultaReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/consultas/ConsultaReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +56,9 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.MindcareDiaryBatchApplication.executor": "Run",
+    "Spring Boot.MindcareDiaryBatchApplication.executor": "Debug",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/Users/ericaokamura/Downloads/mindcare-diary-batch",
@@ -99,6 +108,10 @@
       <method v="2" />
     </configuration>
     <configuration name="MindcareDiaryBatchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="SCHEDULED_DEBUGGER" value="true" />
+      <envs>
+        <env name="DB_PASSWORD" value="12345678" />
+      </envs>
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="mindcare-diary-batch" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fiap.mindcare_diary_batch.MindcareDiaryBatchApplication" />
@@ -127,7 +140,8 @@
       <option name="presentableId" value="Default" />
       <updated>1788544804384</updated>
       <workItem from="1788544805988" duration="9830000" />
-      <workItem from="1788560187756" duration="1011000" />
+      <workItem from="1788560187756" duration="1098000" />
+      <workItem from="1788730790466" duration="2919000" />
     </task>
     <servers />
   </component>
@@ -161,18 +175,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/consultas/ConsultaReader.java</url>
-          <line>19</line>
+          <line>17</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/consultas/ConsultaJobConfig.java</url>
-          <line>27</line>
+          <line>22</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/consultas/ConsultaReader.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/consultas/ConsultaWriter.java</url>
@@ -181,8 +190,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/consultas/ConsultaJobConfig.java</url>
-          <line>39</line>
+          <line>34</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/NotificationJobScheduler.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/prescriptions/PrescriptionJobConfig.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/prescriptions/PrescriptionJobConfig.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/NotificationJobScheduler.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
