@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b36811e7-4ff2-45df-97d2-56dc0d302fb6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/prescriptions/PrescriptionProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/FirebaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/FirebaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/NotificationJobScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/NotificationJobScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/prescriptions/PrescriptionJobConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/prescriptions/PrescriptionJobConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/prescriptions/PrescriptionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/prescriptions/PrescriptionReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/prescriptions/PrescriptionWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/prescriptions/PrescriptionWriter.java" afterDir="false" />
-    </list>
+    <list default="true" id="b36811e7-4ff2-45df-97d2-56dc0d302fb6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,29 +36,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.mindcare-diary-batch [clean,install].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.MindcareDiaryBatchApplication.executor": "Debug",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/ericaokamura/Downloads/mindcare-diary-batch",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.mindcare-diary-batch [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.MindcareDiaryBatchApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ericaokamura/Downloads/mindcare-diary-batch&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services" />
@@ -138,7 +130,7 @@
       <updated>1788544804384</updated>
       <workItem from="1788544805988" duration="9830000" />
       <workItem from="1788560187756" duration="1098000" />
-      <workItem from="1788730790466" duration="4646000" />
+      <workItem from="1788730790466" duration="4853000" />
     </task>
     <servers />
   </component>
