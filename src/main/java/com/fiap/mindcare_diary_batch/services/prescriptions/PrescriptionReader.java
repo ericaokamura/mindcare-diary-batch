@@ -20,21 +20,18 @@ public class PrescriptionReader implements ItemReader<Prescription> {
 
     public void carregarPrescriptions() {
 
-        LocalDate start = LocalDate.now();
-        LocalDate end = start.plusDays(1);
+        LocalDate today = LocalDate.now();
 
         List<Prescription> prescriptions = prescriptionRepository.findAll()
                 .stream()
                 .filter(r ->
-                    r.getExpirationDate().isAfter(start)
-                    && r.getExpirationDate().isBefore(end)
+                    r.getExpirationDate().isEqual(today)
                 )
                 .toList();
 
         System.out.println("=================================");
         System.out.println("RECEITAS MÉDICAS ENCONTRADAS: " + prescriptions.size());
-        System.out.println("INÍCIO: " + start);
-        System.out.println("FIM:    " + end);
+        System.out.println("HOJE: " + today);
         System.out.println("=================================");
 
         iterator = prescriptions.iterator();

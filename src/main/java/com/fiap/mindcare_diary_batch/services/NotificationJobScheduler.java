@@ -26,7 +26,7 @@ public class NotificationJobScheduler {
 
     private final Job prescriptionNotificationJob;
 
-    @Scheduled(cron = "0 32 19 * * *", zone = TIME_ZONE)
+    @Scheduled(cron = "0 58 19 * * *", zone = TIME_ZONE)
     public void runDailyNotificationJobs() {
 
         LocalDate today = LocalDate.now(ZoneId.of(TIME_ZONE));
