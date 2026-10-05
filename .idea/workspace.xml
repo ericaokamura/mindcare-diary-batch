@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b36811e7-4ff2-45df-97d2-56dc0d302fb6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/plsql/verifica_prescricoes_vencendo.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/models/Consulta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/models/Consulta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/models/Prescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/models/Prescription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/models/PrescriptionDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/models/PrescriptionDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/repositories/PrescriptionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/repositories/PrescriptionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/NotificationJobScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/NotificationJobScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/prescriptions/PrescriptionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/services/prescriptions/PrescriptionReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +178,7 @@
       <workItem from="1788730790466" duration="4853000" />
       <workItem from="1788736152107" duration="319000" />
       <workItem from="1789323630231" duration="9000" />
-      <workItem from="1791163167462" duration="4008000" />
+      <workItem from="1791163167462" duration="4229000" />
     </task>
     <servers />
   </component>
@@ -287,12 +277,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/repositories/PrescriptionRepository.java</url>
-          <line>29</line>
+          <line>27</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/fiap/mindcare_diary_batch/repositories/PrescriptionRepository.java</url>
-          <line>47</line>
+          <line>45</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
