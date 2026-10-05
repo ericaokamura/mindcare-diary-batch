@@ -22,12 +22,7 @@ public class PrescriptionReader implements ItemReader<Prescription> {
 
         LocalDate today = LocalDate.now();
 
-        List<Prescription> prescriptions = prescriptionRepository.findAll()
-                .stream()
-                .filter(r ->
-                    r.getExpirationDate().isEqual(today)
-                )
-                .toList();
+        List<Prescription> prescriptions = prescriptionRepository.encontrePrescricoesVencendo();
 
         System.out.println("=================================");
         System.out.println("RECEITAS MÉDICAS ENCONTRADAS: " + prescriptions.size());

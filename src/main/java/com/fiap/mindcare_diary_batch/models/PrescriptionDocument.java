@@ -1,5 +1,6 @@
 package com.fiap.mindcare_diary_batch.models;
 
+import com.fiap.mindcare_diary_batch.models.Prescription;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -19,7 +20,8 @@ public class PrescriptionDocument {
     @JoinColumn(name = "prescription_id")
     private Prescription prescription;
 
-    @Column(name = "arquivo_pdf", columnDefinition = "bytea")
+    @Lob
+    @Column(name = "arquivo_pdf")
     private byte[] arquivoPdf;
 
     @Column(name = "nome_arquivo")
@@ -35,4 +37,3 @@ public class PrescriptionDocument {
     private LocalDateTime criadoEm;
 
 }
-
